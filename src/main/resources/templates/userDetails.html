@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <META http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>User details</title>
+    <link rel="stylesheet" th:href="@{/css/bootstrap.min.css}" href="../../css/bootstrap.min.css"/>
+</head>
+<body>
+<div class="container">
+    <div class="content">
+        <h1>Użytkownik:</h1>
+
+        <p th:inline="text">[[${user}]]</p>
+
+        <h1>Adres:</h1>
+
+        <p th:inline="text">[[${address}]]</p>
+
+        <p><a th:href="@{/}" class="btn btn-primary">Strona główna</a></p>
+
+        <p><a th:href="@{/logout}" class="btn btn-primary">Wyloguj</a></p>
+    </div>
+</div>
+</body>
+</html>

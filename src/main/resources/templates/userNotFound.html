@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org"
+        >
+<head>
+    <title>User not found</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" th:href="@{/css/bootstrap.min.css}" href="../../css/bootstrap.min.css" />
+</head>
+<body>
+<div class="container">
+    <div class="content">
+        <h1 th:inline="text">Użytkownik '[[${userName}]]' nie istnieje</h1>
+
+        <p><a th:href="@{/}" class="btn btn-primary">Strona główna</a></p>
+
+        <p><a th:href="@{/logout}" class="btn btn-primary">Wyloguj</a></p>
+    </div>
+</div>
+</body>
+</html>
