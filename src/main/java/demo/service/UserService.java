@@ -19,7 +19,7 @@ public class UserService {
 
     @Transactional
     public void deleteUserById(long userId) {
-        User user = userRepository.findOne(userId);
+        User user = userRepository.findUserInEntityManager(userId);
         validateUserBeforeDelete(user);
         user.setActive(false);
     }
