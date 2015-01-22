@@ -1,8 +1,8 @@
-package akai;
+package demo;
 
-import akai.jpa.User;
-import akai.repository.UserRepository;
-import akai.service.UserService;
+import demo.jpa.User;
+import demo.repository.UserRepository;
+import demo.service.UserService;
 import org.junit.Before;
 import org.junit.Test;
 import org.mockito.ArgumentCaptor;

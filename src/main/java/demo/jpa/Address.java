@@ -1,4 +1,4 @@
-package akai.jpa;
+package demo.jpa;
 
 import javax.persistence.*;
 import java.io.Serializable;
@@ -25,6 +25,7 @@ public class Address implements Serializable {
     private String postalCode;
 
     @OneToOne(targetEntity = User.class, fetch = FetchType.LAZY)
+    @JoinColumn(name = "user_id")
     private User user;
 
     // for hibernate

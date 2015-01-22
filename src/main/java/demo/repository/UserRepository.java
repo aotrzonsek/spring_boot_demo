@@ -1,6 +1,6 @@
-package akai.repository;
+package demo.repository;
 
-import akai.jpa.User;
+import demo.jpa.User;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.data.repository.query.Param;

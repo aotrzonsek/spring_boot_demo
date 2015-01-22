@@ -1,4 +1,4 @@
-package akai.jpa;
+package demo.jpa;
 
 import javax.persistence.*;
 import java.io.Serializable;

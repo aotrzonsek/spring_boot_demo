@@ -1,7 +1,7 @@
-package akai;
+package demo;
 
-import akai.jpa.User;
-import akai.service.UserService;
+import demo.jpa.User;
+import demo.service.UserService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;

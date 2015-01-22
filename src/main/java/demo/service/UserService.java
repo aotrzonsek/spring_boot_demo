@@ -1,7 +1,7 @@
-package akai.service;
+package demo.service;
 
-import akai.jpa.User;
-import akai.repository.UserRepository;
+import demo.jpa.User;
+import demo.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
